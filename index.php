@@ -22,6 +22,9 @@ $result = $connection->query($account_query);
     ?>
     
     <body>
+        <?php 
+        include("includes/navigation.php");
+        ?>
         <div class ="container">
             <div class="row">
                 <div class="col-sm-6 col-md-6">

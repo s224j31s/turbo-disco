@@ -1,6 +1,8 @@
 <?php
 
- include("includes/database.php");
+session_start();
+
+include("includes/database.php");
   
 if($_SERVER["REQUEST_METHOD"]=="POST"){
     
@@ -15,7 +17,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     else{
          $query = "SELECT * FROM accounts WHERE username='$user_email'";
     }
-    $password = $_POST["password"];
+    $pass = $_POST["password"];
 
     //$query = "SELECT * FROM accounts WHERE email='$email'";
     
@@ -27,13 +29,19 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     
     if($userdata->num_rows > 0){
         $user = $userdata->fetch_assoc();
-        if(password_verify($password, $user["password"])==false){
+        if(password_verify($pass, $user["password"])==false){
             $errors["account"] = "email or password incorrect";
         }
         else{
-            $message = "You have been logged in $email";
-            echo $message;
-        }
+            $message = "You have been logged in";
+            
+            $username = $user["username"];
+            $_SESSION["username"] = $username;
+            
+            $email = $email["email"];
+            $_SESSION["email"] = $email;
+            
+        }   
     }
     else{
         $errors["account"] = "There is no user with the supplied credentials";
@@ -51,6 +59,9 @@ include("includes/head.php");
 ?>
     
     <body>
+        <?php 
+        include("includes/navigation.php");
+        ?>
         <div class ="container">
             <div class ="row">
                 <div class="col-md-4 col-md-offset-4">
@@ -65,6 +76,8 @@ include("includes/head.php");
                             <label for="password">Password</label>
                             <input class="form-control" type ="password" id="password" name="password" placeholder="password">
                         </div>
+                        
+                        <p>Don't have an account? <a href="register.php">Sign Up</a></p> 
                         
                         <div class="text-center">
                             <button type="submit" name ="submit" value="login" class="btn btn-info">Login</button>

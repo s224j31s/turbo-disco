@@ -1,10 +1,10 @@
 <?php
-$host = "localhost";
-$user = "user";
-$password = "password";
-$database ="datastores";
+$dbhost = "localhost";
+$dbuser = "user";
+$dbpassword = "password";
+$dbdatabase ="datastores";
 
-$connection = mysqli_connect($host,$user,$password,$database);
+$connection = mysqli_connect($dbhost,$dbuser,$dbpassword,$dbdatabase);
 
 if(!$connection){
   echo "database error";
