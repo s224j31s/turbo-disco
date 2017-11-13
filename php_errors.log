@@ -1,0 +1,271 @@
+[11-Sep-2017 05:34:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.php on line 8
+[11-Sep-2017 05:34:02 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:02 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[11-Sep-2017 05:34:02 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[11-Sep-2017 05:34:02 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.php:8
+[11-Sep-2017 05:34:02 UTC] database connection failed
+[11-Sep-2017 05:34:02 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[11-Sep-2017 05:34:02 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:02 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[11-Sep-2017 05:34:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.php on line 8
+[11-Sep-2017 05:34:04 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:04 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[11-Sep-2017 05:34:04 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[11-Sep-2017 05:34:04 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.php:8
+[11-Sep-2017 05:34:04 UTC] database connection failed
+[11-Sep-2017 05:34:04 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[11-Sep-2017 05:34:04 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:04 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[11-Sep-2017 05:34:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.php on line 8
+[11-Sep-2017 05:34:06 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:06 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[11-Sep-2017 05:34:06 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[11-Sep-2017 05:34:06 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.php:8
+[11-Sep-2017 05:34:06 UTC] database connection failed
+[11-Sep-2017 05:34:06 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[11-Sep-2017 05:34:06 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:06 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[11-Sep-2017 05:34:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.php on line 8
+[11-Sep-2017 05:34:07 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:07 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[11-Sep-2017 05:34:07 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[11-Sep-2017 05:34:07 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.php:8
+[11-Sep-2017 05:34:07 UTC] database connection failed
+[11-Sep-2017 05:34:07 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[11-Sep-2017 05:34:07 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:07 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[11-Sep-2017 05:34:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.php on line 8
+[11-Sep-2017 05:34:07 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:07 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[11-Sep-2017 05:34:07 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[11-Sep-2017 05:34:07 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.php:8
+[11-Sep-2017 05:34:07 UTC] database connection failed
+[11-Sep-2017 05:34:07 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[11-Sep-2017 05:34:07 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:07 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[11-Sep-2017 05:34:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.php on line 8
+[11-Sep-2017 05:34:11 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:11 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[11-Sep-2017 05:34:11 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[11-Sep-2017 05:34:11 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.php:8
+[11-Sep-2017 05:34:11 UTC] database connection failed
+[11-Sep-2017 05:34:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[11-Sep-2017 05:34:11 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:11 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[11-Sep-2017 05:34:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.php on line 8
+[11-Sep-2017 05:34:11 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:11 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[11-Sep-2017 05:34:11 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[11-Sep-2017 05:34:11 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.php:8
+[11-Sep-2017 05:34:11 UTC] database connection failed
+[11-Sep-2017 05:34:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[11-Sep-2017 05:34:11 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:11 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[11-Sep-2017 05:34:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.php on line 8
+[11-Sep-2017 05:34:11 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:11 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[11-Sep-2017 05:34:11 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[11-Sep-2017 05:34:11 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.php:8
+[11-Sep-2017 05:34:11 UTC] database connection failed
+[11-Sep-2017 05:34:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[11-Sep-2017 05:34:11 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:11 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[11-Sep-2017 05:34:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.php on line 8
+[11-Sep-2017 05:34:12 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:12 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[11-Sep-2017 05:34:12 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[11-Sep-2017 05:34:12 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.php:8
+[11-Sep-2017 05:34:12 UTC] database connection failed
+[11-Sep-2017 05:34:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[11-Sep-2017 05:34:12 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:12 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[11-Sep-2017 05:34:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.php on line 8
+[11-Sep-2017 05:34:12 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:12 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[11-Sep-2017 05:34:12 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[11-Sep-2017 05:34:12 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.php:8
+[11-Sep-2017 05:34:12 UTC] database connection failed
+[11-Sep-2017 05:34:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[11-Sep-2017 05:34:12 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:12 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[11-Sep-2017 05:34:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.php on line 8
+[11-Sep-2017 05:34:12 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:12 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[11-Sep-2017 05:34:12 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[11-Sep-2017 05:34:12 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.php:8
+[11-Sep-2017 05:34:12 UTC] database connection failed
+[11-Sep-2017 05:34:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[11-Sep-2017 05:34:12 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:12 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[11-Sep-2017 05:34:26 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.php on line 8
+[11-Sep-2017 05:34:26 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:26 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[11-Sep-2017 05:34:26 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[11-Sep-2017 05:34:26 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.php:8
+[11-Sep-2017 05:34:26 UTC] database connection failed
+[11-Sep-2017 05:34:26 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[11-Sep-2017 05:34:26 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:26 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[11-Sep-2017 05:34:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.php on line 8
+[11-Sep-2017 05:34:28 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:28 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[11-Sep-2017 05:34:28 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[11-Sep-2017 05:34:28 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.php:8
+[11-Sep-2017 05:34:28 UTC] database connection failed
+[11-Sep-2017 05:34:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[11-Sep-2017 05:34:28 UTC] PHP Stack trace:
+[11-Sep-2017 05:34:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[11-Sep-2017 05:34:28 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[08-Oct-2017 23:28:58 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.php on line 8
+[08-Oct-2017 23:28:58 UTC] PHP Stack trace:
+[08-Oct-2017 23:28:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[08-Oct-2017 23:28:58 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[08-Oct-2017 23:28:58 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[08-Oct-2017 23:28:58 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.php:8
+[08-Oct-2017 23:28:58 UTC] database connection failed
+[08-Oct-2017 23:28:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[08-Oct-2017 23:28:58 UTC] PHP Stack trace:
+[08-Oct-2017 23:28:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[08-Oct-2017 23:28:58 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[08-Oct-2017 23:29:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.php on line 8
+[08-Oct-2017 23:29:30 UTC] PHP Stack trace:
+[08-Oct-2017 23:29:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[08-Oct-2017 23:29:30 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[08-Oct-2017 23:29:30 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[08-Oct-2017 23:29:30 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.php:8
+[08-Oct-2017 23:29:30 UTC] database connection failed
+[08-Oct-2017 23:29:30 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[08-Oct-2017 23:29:30 UTC] PHP Stack trace:
+[08-Oct-2017 23:29:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[08-Oct-2017 23:29:30 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[16-Oct-2017 00:55:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.php on line 8
+[16-Oct-2017 00:55:40 UTC] PHP Stack trace:
+[16-Oct-2017 00:55:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[16-Oct-2017 00:55:40 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[16-Oct-2017 00:55:40 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[16-Oct-2017 00:55:40 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.php:8
+[16-Oct-2017 00:55:40 UTC] database connection failed
+[16-Oct-2017 00:55:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[16-Oct-2017 00:55:40 UTC] PHP Stack trace:
+[16-Oct-2017 00:55:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[16-Oct-2017 00:55:40 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[30-Oct-2017 01:10:01 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/classes/account.php on line 112
+[30-Oct-2017 01:10:01 UTC] PHP Stack trace:
+[30-Oct-2017 01:10:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[30-Oct-2017 01:10:01 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[30-Oct-2017 01:10:01 UTC] PHP   3. Account->isUserAdmin() /home/ubuntu/workspace/classes/account.php:94
+[30-Oct-2017 01:10:34 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/classes/account.php on line 112
+[30-Oct-2017 01:10:34 UTC] PHP Stack trace:
+[30-Oct-2017 01:10:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[30-Oct-2017 01:10:34 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[30-Oct-2017 01:10:34 UTC] PHP   3. Account->isUserAdmin() /home/ubuntu/workspace/classes/account.php:94
+[30-Oct-2017 04:13:34 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/classes/account.php on line 112
+[30-Oct-2017 04:13:34 UTC] PHP Stack trace:
+[30-Oct-2017 04:13:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[30-Oct-2017 04:13:34 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[30-Oct-2017 04:13:34 UTC] PHP   3. Account->isUserAdmin() /home/ubuntu/workspace/classes/account.php:94
+[30-Oct-2017 04:22:13 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/classes/account.php on line 112
+[30-Oct-2017 04:22:13 UTC] PHP Stack trace:
+[30-Oct-2017 04:22:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[30-Oct-2017 04:22:13 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[30-Oct-2017 04:22:13 UTC] PHP   3. Account->isUserAdmin() /home/ubuntu/workspace/classes/account.php:94
+[30-Oct-2017 04:28:42 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/classes/account.php on line 112
+[30-Oct-2017 04:28:42 UTC] PHP Stack trace:
+[30-Oct-2017 04:28:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[30-Oct-2017 04:28:42 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[30-Oct-2017 04:28:42 UTC] PHP   3. Account->isUserAdmin() /home/ubuntu/workspace/classes/account.php:94
+[30-Oct-2017 04:29:34 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/classes/account.php on line 112
+[30-Oct-2017 04:29:34 UTC] PHP Stack trace:
+[30-Oct-2017 04:29:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[30-Oct-2017 04:29:34 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[30-Oct-2017 04:29:34 UTC] PHP   3. Account->isUserAdmin() /home/ubuntu/workspace/classes/account.php:94
+[01-Nov-2017 03:14:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.class.php on line 8
+[01-Nov-2017 03:14:03 UTC] PHP Stack trace:
+[01-Nov-2017 03:14:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[01-Nov-2017 03:14:03 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[01-Nov-2017 03:14:03 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[01-Nov-2017 03:14:03 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.class.php:8
+[01-Nov-2017 03:14:03 UTC] database connection failed
+[01-Nov-2017 03:14:03 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[01-Nov-2017 03:14:03 UTC] PHP Stack trace:
+[01-Nov-2017 03:14:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[01-Nov-2017 03:14:03 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[01-Nov-2017 03:14:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.class.php on line 8
+[01-Nov-2017 03:14:44 UTC] PHP Stack trace:
+[01-Nov-2017 03:14:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[01-Nov-2017 03:14:44 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[01-Nov-2017 03:14:44 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[01-Nov-2017 03:14:44 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.class.php:8
+[01-Nov-2017 03:14:44 UTC] database connection failed
+[01-Nov-2017 03:14:44 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[01-Nov-2017 03:14:44 UTC] PHP Stack trace:
+[01-Nov-2017 03:14:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[01-Nov-2017 03:14:44 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[01-Nov-2017 03:17:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.class.php on line 8
+[01-Nov-2017 03:17:51 UTC] PHP Stack trace:
+[01-Nov-2017 03:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[01-Nov-2017 03:17:51 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[01-Nov-2017 03:17:51 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[01-Nov-2017 03:17:51 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.class.php:8
+[01-Nov-2017 03:17:51 UTC] database connection failed
+[01-Nov-2017 03:17:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[01-Nov-2017 03:17:51 UTC] PHP Stack trace:
+[01-Nov-2017 03:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[01-Nov-2017 03:17:51 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[01-Nov-2017 03:21:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.class.php on line 8
+[01-Nov-2017 03:21:02 UTC] PHP Stack trace:
+[01-Nov-2017 03:21:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[01-Nov-2017 03:21:02 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[01-Nov-2017 03:21:02 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[01-Nov-2017 03:21:02 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.class.php:8
+[01-Nov-2017 03:21:02 UTC] database connection failed
+[01-Nov-2017 03:21:02 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[01-Nov-2017 03:21:02 UTC] PHP Stack trace:
+[01-Nov-2017 03:21:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[01-Nov-2017 03:21:02 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[01-Nov-2017 03:21:32 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/classes/account.php on line 112
+[01-Nov-2017 03:21:32 UTC] PHP Stack trace:
+[01-Nov-2017 03:21:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[01-Nov-2017 03:21:32 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[01-Nov-2017 03:21:32 UTC] PHP   3. Account->isUserAdmin() /home/ubuntu/workspace/classes/account.php:94
+[01-Nov-2017 03:21:57 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/classes/account.php on line 112
+[01-Nov-2017 03:21:57 UTC] PHP Stack trace:
+[01-Nov-2017 03:21:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[01-Nov-2017 03:21:57 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
+[01-Nov-2017 03:21:57 UTC] PHP   3. Account->isUserAdmin() /home/ubuntu/workspace/classes/account.php:94
+[03-Nov-2017 02:44:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/classes/database.class.php on line 8
+[03-Nov-2017 02:44:20 UTC] PHP Stack trace:
+[03-Nov-2017 02:44:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[03-Nov-2017 02:44:20 UTC] PHP   2. Account->__construct() /home/ubuntu/workspace/ajax/ajaxlogin.php:10
+[03-Nov-2017 02:44:20 UTC] PHP   3. Database->__construct() /home/ubuntu/workspace/classes/account.php:6
+[03-Nov-2017 02:44:20 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/classes/database.class.php:8
+[03-Nov-2017 02:44:20 UTC] database connection failed
+[03-Nov-2017 02:44:20 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/classes/account.php on line 75
+[03-Nov-2017 02:44:20 UTC] PHP Stack trace:
+[03-Nov-2017 02:44:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/ajax/ajaxlogin.php:0
+[03-Nov-2017 02:44:20 UTC] PHP   2. Account->authenticate() /home/ubuntu/workspace/ajax/ajaxlogin.php:11
