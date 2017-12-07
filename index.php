@@ -1,4 +1,5 @@
 <?php
+include("autoloader.php");
 session_start();
 include("includes/database.php");
 
@@ -126,22 +127,32 @@ $cat_result = $cat_statement->get_result();
     
    
 			
-			
+			 <div class="jumbotron jumbotron1">
 			<div class="container">
 			  
-			    <div class="alpha">
-			      <h1 class="text-center">Test</h1>
+			   
+			      <h1 class="text-center">Raijin</h1>
 			    </div>
-			    
-			    
-			    <div class="row">
-			      <div class = "col-md-4">
-			        <p>Testing 123</p>
-			      </div>
-			    </div>
-			  
-			 
+
 			</div>
+    
+    <div class="container">
+      <img src = "graphics/front.jpg" class = "img-responsive img-center" alt ="front">
+    </div>
+    
+        <div class="container">
+      
+      <div class="row">
+        
+        <div class= "col-md-4 col-md-offset-4">
+          <h3 class = "text-center">Named after the god of Thunder, Raijin is a restaurant specialising in asian cuisines for all tastes.</h>
+          
+        </div>
+       
+      </div>
+    </div>
+  
+  
 
     </body>
     <!--<body>-->

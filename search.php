@@ -72,6 +72,8 @@ $total_pages = ceil( $total / $items_per_page );
   ?>
   <body class ="body2">
     <?php include("includes/navigation.php"); ?>    
+    
+    
     <div class="container">
       <?php
       if( $result -> num_rows > 0){

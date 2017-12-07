@@ -125,13 +125,17 @@ $cat_result = $cat_statement->get_result();
        <body class="body2">
                  <?php include("includes/navigation.php"); ?>    
               
-       <div class="jumbotron">
+       <div class="jumbotron jumbotron1">
 				<div class="container text-center">
+				  
 					<h1>Menu</h1>
 					<?php
 					include("includes/search.php");
-					?>
+					?> 
+					
+					
 				</div>
+				
 			</div>
 			
     <div class="container">
@@ -277,7 +281,7 @@ $cat_result = $cat_statement->get_result();
              $words_array = explode(" ", $str);
              for($i=0; $i<$count; $i++){
                if($words_array[$i]!=="." && $words_array[$i]!==" " && $words_array[$i]!=="&nbsp;"){
-                 $words = trim($words_array[$i])." ".$words;
+                 $words = $words. " ".trim($words_array[$i]);
                }
              }
              return $words;

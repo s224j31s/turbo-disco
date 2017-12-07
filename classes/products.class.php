@@ -1,6 +1,7 @@
 <?php
 class Products extends Database{
-  private $dbconn;
+  private $conn;
+  //base query for products
   private $query = "SELECT 
       Menu.menu_id AS id,
       Menu.name AS name,
@@ -9,39 +10,61 @@ class Products extends Database{
       images.image_file AS image
       FROM Menu 
       INNER JOIN Menu_image 
-      ON Menu.menu_id=Menu_image.Menu_id
+      ON Menu.menu_id = Menu_image.menu_id
       INNER JOIN images
-      ON images.image_id = menu_image.image_id";
-  private $grouping ="GROUP BY menu.menu_id";
+      ON images.image_id = Menu_image.image_id";
+  private $grouping ="GROUP BY Menu.menu_id";
   private $order = "ORDER BY Menu.menu_id";
-      
+  private $limit = "LIMIT ? OFFSET ?";
+  private $params_array = array();
+  private $page_size;
+  private $page_number;
+  protected $products = array();
+  
   //constructor
   public function __construct(){
     //initialise parent class which is "Database"
     parent::__construct();
-    $this -> dbconn = $this -> connection;
+    $this -> conn = $this -> getConnection();
+  }
+  public function getProductById($product_id){
+    //return an array the product with all images
+    $product_query = $this -> query ." ". "WHERE Menu.menu_id=?";
+    $statement = $this -> conn -> prepare($product_query);
+    $statement -> bind_param("i",$product_id);
+    $statement -> execute();
+    $result = $statement -> get_result();
+    if( $result -> num_rows == 0){
+      return false;
+    }
+    else{
+      $product = array();
+      while( $row = $result -> fetch_assoc() ){
+        array_push($product,$row);
+      }
+      return $product;
+    }
   }
   
   //get all products
   public function getProducts($categories = NULL,$size = 8,$page = 1){
-    if($categories || $categories > 0){
+    if(count($categories) > 0){
+      //if categories specified send to getCategories
       $this -> getCategories($categories);
     }
     else{
       //no categories specified so get all products
-      $query = $this -> query . " ASC
-      LIMIT ? OFFSET ?";
+      $query = $this -> query . " ORDER BY Menu.menu_id ASC LIMIT ? OFFSET ? ";
       //prepare the statement
-      $statement = $this -> dbconn -> prepare($query);
+      $statement = $this -> conn -> prepare($query);
       $statement -> bind_param("ii",$size,$page);
       $statement -> execute();
       $result = $statement -> get_result();
       if($result -> num_rows > 0){
-        $products = array();
         while( $row = $result -> fetch_assoc() ){
-          array_push($products, $row);
+          array_push($this -> products, $row);
         }
-        return $products;
+        return $this -> products;
       }
       else{
         return false;
@@ -50,17 +73,18 @@ class Products extends Database{
   }
   //get categories
   public function getCategories($categories){
-    //check if categories is an array
+    //check if categories is an array if not, return false
     if(gettype($categories) !== "array"){
       return false;
     }
     else{
       $categorised_query = $this -> query . "
       INNER JOIN menu_sort
-      ON menu.menu_id = menu_sort.menu_id
+      ON Menu.menu_id = menu_sort.menu_id
       WHERE ";
       //construct query using categories
       $cat_count = count($categories);
+      $param_vars = array();
       for($i=0; $i<$cat_count; $i++){
         //build query
         $categorised_query = $categorised_query . "menu_sort.category_id=?";
@@ -69,12 +93,47 @@ class Products extends Database{
         }
         //build parameter string
         $param_string = $param_string . "i";
+        
+        //add variables to parameter array to be passed to database as query parameters
+        $this -> addParam($categories[$i],true);
       }
-      echo $categorised_query ."<br>";
-      echo $param_string;
+      //add grouping to the query
+      $categorised_query = $categorised_query . " " . $this -> grouping;
+      //add parameter string to parameter array
+      $this -> addParam($param_string,false);
+      
       //prepare query
-      $statement = $this -> dbconn -> prepare($categorised_query);
+      $statement = $this -> conn -> prepare($categorised_query);
+      
+      //pass parameter array to statement
+      call_user_func_array(array($statement,'bind_param'), $this -> params_array);
+      $statement -> execute();
+      $result = $statement -> get_result();
+      if($result -> num_rows > 0){
+        while($row = $result -> fetch_assoc() ){
+          array_push( $this -> products, $row );
+        }
+      }
+      return $this -> products;
+      print_r($this -> products);
     }
   }
+  private function addParam( &$param, $side ){
+    if( $side ){
+      //array_push($this -> params_array, $param);
+      $this -> params_array[$param] = &$param;
+    }
+    else{
+      array_unshift($this -> params_array, $param);
+    }
+  }
+
+  public function getCount(){
+    return count($this -> products);
+  }
+  public function output(){
+    return $this -> products;
+  }
+  
 }
 ?>

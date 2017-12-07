@@ -1,5 +1,5 @@
 <?php
-
+include("autoloader.php");
 include("includes/database.php");
 //PROCESS REGISTRATION WITH PHP
 //print_r($_SERVER);
@@ -43,13 +43,14 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     
     $query =  "INSERT INTO accounts (username, email, password, status, created) VALUES ('$username', '$email','$password', 1,NOW())";
     
-    echo $query;
+    // echo $query;
   
     $result = $connection->query($query);
     
     if($result==true){
       
       $message ="Account successfully created";
+    //   header( 'Location:https://restaurant-sj626.c9users.io/login2.php' ) ;
     }
     else{
      if($connection->errno == 1062){
@@ -60,7 +61,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
        }
        
        if(strstr($message, "email")){
-         $errors["email"] = "email is already taken";
+         $errors["email"] = "email is already taken"; 
        }
        
      
@@ -140,10 +141,17 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
                         
                          <p>Have an account? <a href="login.php">Sign In</a></p>
                          <div class ="text-center">
-                           <button type= "submit" class="btn btn-info">Register</button>
+                           <button id = "redirect" type= "submit" class="btn btn-info">Register</button>
                          </div>
                     </form>
                     
+              
+               <script type="text/javascript">
+              // document.getElementById("redirect").onclick = function () {
+              //     windows.location.href = "https://restaurant-sj626.c9users.io/login2.php";
+              // },2000;
+              // </script>
+                   
                     
                 </div>
                 <?php 
@@ -155,5 +163,6 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
             </div>
             
         </div>
+      
     </body>
 </html>

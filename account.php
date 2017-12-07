@@ -1,4 +1,5 @@
 <?php
+include("autoloader.php");
 session_start();
 include("includes/database.php");
 //if user is not logged in, eg no session vars, redirect to login page

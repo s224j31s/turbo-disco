@@ -80,13 +80,73 @@ background-color:#434343;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
-  color:#000;
-  background-color:#fff;
+  color:#fff;
+  background-color:grey;
 }
 
 .nav-pills > li > a{
   color:#fff;
 }
 .nav>li>a:focus, .nav>li>a:hover {
-  background-colour: #000;
+  background-color: grey;
+  color:#fff;
 }
+
+.jumbotron1{
+  background-color:grey;
+}
+
+.pagination > li > a, .pagination > li > span{
+  color:#fff;
+  background-color:#000;
+  border: 1px solid #ddd;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+   border-color:#fff;
+  background-color:grey;
+  color:white;
+}
+
+.badge{
+  background-color:#000;
+}
+
+a{color:skyblue;}
+
+.categories-nav{
+  
+}
+.spaced-top{
+  margin-top: 30px;
+}
+
+img{
+  max-width: 100%;
+}
+/*----------------wishlist section*/
+.wishlist-description{
+  min-height: 80px;
+}
+.flex-row{
+  display:flex;
+  flex-wrap:wrap;
+}
+/*spinner*/
+.spinner{
+  animation:spin 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  max-width:20px;
+}
+@keyframes spin {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
